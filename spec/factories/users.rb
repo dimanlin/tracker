@@ -6,7 +6,6 @@ FactoryBot.define do
   factory :user do
     email { FactoryBot.generate :user_email }
     name { 'Somename' }
-    confirmed_at { Time.now }
     password { 'root0000' }
     password_confirmation { 'root0000' }
   end
